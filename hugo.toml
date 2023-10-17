@@ -1,0 +1,105 @@
+baseurl = "localhost"
+title = "pixincreate"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+paginate = 10
+
+[minify]
+minifyOutput = true
+
+[permalinks]
+posts = "/posts/:year/:month/:title/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[languages]
+[languages.en]
+title = "Pavana Narayana K"
+keywords = "pixincreate"
+copyright = '<a href="/LICENSE" target="_blank" rel="license noopener noreferrer">License</a>'
+
+[languages.en.params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+homeSubtitle = "An 8-bit dev!"
+subtitle = "pixincreate portfolio"
+enableSharingButtons = true
+description = "pixincreate's website"
+keywords = "blog, homepage, portfolio, resume"
+images = [""]
+
+
+[[languages.en.params.social]]
+name = "github"
+url = "https://github.com/pixincreate"
+
+[[languages.en.params.social]]
+name = "linkedin"
+url = "https://linkedin.com/pavananarayanak"
+
+[languages.en.params.portrait]
+path = "/img/avatar.jpg"
+alt = "Avatar"
+maxWidth = "200px"
+
+[languages.en.params.logo]
+logoMark = "$"
+logoText = "PiX"
+logoHomeLink = "/"
+logoCursorColor = "#66FF66"
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+
+[[menu.main]]
+identifier = "youtube"
+name = "YouTube Channel"
+url = "/youtube"
+
+[[menu.main]]
+identifier = "work"
+name = "My Work"
+url = "/work"
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+
+
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = true
+respectDoNotTrack = true
+useSessionStorage = false
+[privacy.instagram]
+disable = true
+simple = true
+[privacy.twitter]
+disable = true
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = true
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = true

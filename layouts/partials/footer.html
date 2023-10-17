@@ -1,0 +1,17 @@
+<footer class="text-center pb-1">
+    {{ if .IsPage }}
+    <p></p>
+    <p><a href="#content">&uarr;Back to Top&uarr;</a></p>
+    {{ end }}
+    <small class="text-muted">
+        {{ if .Site.Copyright }}
+        {{ .Site.Copyright | safeHTML }}
+        {{ else }}
+        {{ "&copy; Copyright Year, Your Name" | safeHTML }}
+        {{ end }}
+        <br>
+        <a href="/privacy-policy">Privacy</a>
+        <a href="/terms-of-service">Terms</a>
+        <a href="/to-be-updated">Status</a>
+    </small>
+</footer>
