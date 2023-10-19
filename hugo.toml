@@ -18,7 +18,7 @@ series = "series"
 [languages]
 [languages.en]
 title = "Pavana Narayana K"
-keywords = "pixincreate"
+keywords = "pixincreate, pavan"
 copyright = '<a href="/LICENSE" target="_blank" rel="license noopener noreferrer">License</a>'
 
 [languages.en.params]
@@ -59,27 +59,23 @@ logoCursorColor = "#66FF66"
 identifier = "about"
 name = "About"
 url = "/about"
+weight = 1
 
 [[menu.main]]
 identifier = "youtube"
-name = "YouTube Channel"
-url = "/youtube"
+name = "YouTube"
+url = "https://youtube.com/pixincreate1"
 
 [[menu.main]]
 identifier = "work"
-name = "My Work"
+name = "Work"
 url = "/work"
+weight = 2
 
 [[menu.main]]
-identifier = "blog"
-name = "Blog"
+identifier = "posts"
+name = "Posts"
 url = "/posts"
-
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact"
-
 
 [privacy]
 [privacy.disqus]

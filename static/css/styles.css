@@ -1,0 +1,14 @@
+/*Contact button appearance */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #424242;
+    color: #cccccc;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.contact-button:hover {
+    background-color: #ff3f3f;
+    color: #fff
+}
