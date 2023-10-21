@@ -3,6 +3,8 @@ title = "pixincreate"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
+author = "pixincreate"
+disableMermaid = false
 
 [minify]
 minifyOutput = true
@@ -27,7 +29,7 @@ dateformShort = "Jan 2"
 dateformNum = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 
-homeSubtitle = "An 8-bit dev!"
+homeSubtitle = "An 8-bit dev converting coffee to code!"
 subtitle = "pixincreate portfolio"
 enableSharingButtons = true
 description = "pixincreate's website"
@@ -44,15 +46,15 @@ name = "linkedin"
 url = "https://linkedin.com/pavananarayanak"
 
 [languages.en.params.portrait]
-path = "/img/avatar.jpg"
+path = "/img/avatar.png"
 alt = "Avatar"
-maxWidth = "200px"
+maxWidth = "175px"
 
 [languages.en.params.logo]
 logoMark = "$"
-logoText = "PiX"
+logoText = ["pixincreate.", "PiX.", "Pavan."]
 logoHomeLink = "/"
-logoCursorColor = "#66FF66"
+logoCursorDisabled = true
 
 [menu]
 [[menu.main]]
@@ -64,7 +66,7 @@ weight = 1
 [[menu.main]]
 identifier = "youtube"
 name = "YouTube"
-url = "https://youtube.com/pixincreate1"
+url = "/youtube"
 
 [[menu.main]]
 identifier = "work"

@@ -1,0 +1,62 @@
+/* Styles for the contact form container */
+#contact-popup {
+    background-color: #2F2F2F;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the form elements */
+.form-group {
+    margin: 10px 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 11px;
+    font-size: 15px;
+    background-color: #292929;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+textarea {
+    border-radius: 13px;
+    height: 100px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #424242;
+    color: #cccccc;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: -moz-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
+    background: -webkit-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
+    background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
+    color: #fff;
+}

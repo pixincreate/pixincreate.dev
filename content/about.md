@@ -6,7 +6,7 @@ draft = false
 
 ## Introduction
 
-Hi I'm Pavana Narayana K, an 8-bit developer, interested in information security. I spend most of time lurking around data breaches and latest CVEs and the likes. However, that's not the end. I do have experience automating stuffs here and there and love contributing to **open-source** (which is where I live) for a better world.
+Hi I'm Pavana Narayana K, an 8-bit developer, interested in information security. I spend most of time lurking around data breaches, latest CVEs and stalking repos on GitHub. However, that's not the end. I do have experience automating stuffs here and there and love contributing to **open-source** (which is where I live) for a better world.
 
 A lot of my work is open-source on [GitHub](https://github.com).
 
@@ -16,7 +16,7 @@ A lot of my work is open-source on [GitHub](https://github.com).
 - Andorid and app development
 - Graphics and Animation, CUDA
   - This also includes photo and video editing as well
-- Privacy and security
+- Privacy, security and human rights
 - RISC-V
 - Rust and Python based projects
 - WEb development
@@ -28,3 +28,5 @@ A lot of my work is open-source on [GitHub](https://github.com).
 - Worked as full-stack developer intern for _ICSolutions_ and designed a website that is similar to `wowitshappening(dot)com` which never made it to being hosted unfortunately
 - At _Juspay_(_Hyperswitch_, to be specific), as a **Technical Product Analyst Intern**, integrated a _NMI_ connector with _ApplePay_ and _GooglePay_ support, documented details about various connectors, developed features for _Checkout_ and _ACI_ connectors
 Did a lot of _SDE_ work in _RustLang_ and fixed a lot of bugs after joining as a **QE**, wrote an entire test suite to run automated tests to catch bugs within the product like a _DevOps_ Engineer
+
+{{< back-to-top >}}
