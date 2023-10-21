@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<div class="progress-bar">
+    <a href="#top">
+        <button class="back-to-top-button hidden">
+            &uarr;
+        </button>
+    </a>
+</div>
+<script>
+    const showOnPx = 100;
+    const backToTopButton = document.querySelector(".back-to-top-button")
+
+    const scrollContainer = () => {
+        return document.documentElement || document.body;
+    };
+
+    document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > showOnPx) {
+            backToTopButton.classList.remove("hidden")
+        } else {
+            backToTopButton.classList.add("hidden")
+        }
+    })
+</script>

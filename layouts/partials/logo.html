@@ -1,0 +1,79 @@
+<a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{ else }}{{ .Site.BaseURL | relLangURL }}{{ end }}"
+    style="text-decoration: none;">
+    <div class="logo">
+        {{ if .Site.Params.Logo.path }}
+        <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
+        {{ else }}
+        <span class="logo__mark">{{ with .Site.Params.Logo.logoMark }}{{ . }}{{ else }}>{{ end }}</span>
+
+
+        <div class="flex">
+            <span class="logo__text {{ with.Site.Params.Logo.logoCursorPathname}}logo__pathname{{ end }}" id="word">
+                {{ range .Site.Params.Logo.logoText }}
+                {{ . }},
+                {{ end }}
+            </span>
+            <p class="header-sub-title blink">|</p>
+        </div>
+        <span class="logo__cursor" style="{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
+                   {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
+                   {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
+        </span>
+        {{ end }}
+    </div>
+</a>
+
+<script>
+    const wordsElement = document.getElementById('word');
+    const wordsText = wordsElement.innerHTML;
+    const words = wordsText.split(',').map(word => word.trim());
+
+    // Remove the trailing comma from the last element
+    if (words.length > 0 && words[words.length - 1] === '') {
+        words.pop();
+    }
+
+    console.log(words);
+
+    let i = 0;
+    let timer;
+
+    // Initialize the text content with an empty string
+    document.getElementById('word').textContent = '';
+
+    function typingEffect() {
+        let word = words[i].split("");
+        var loopTyping = function () {
+            if (word.length > 0) {
+                document.getElementById('word').innerHTML += word.shift();
+            } else {
+                deletingEffect();
+                return false;
+            };
+            timer = setTimeout(loopTyping, 500);
+        };
+        loopTyping();
+    };
+
+    function deletingEffect() {
+        let word = words[i].split("");
+        var loopDeleting = function () {
+            if (word.length > 0) {
+                word.pop();
+                document.getElementById('word').innerHTML = word.join("");
+            } else {
+                if (words.length > (i + 1)) {
+                    i++;
+                } else {
+                    i = 0;
+                };
+                typingEffect();
+                return false;
+            };
+            timer = setTimeout(loopDeleting, 200);
+        };
+        loopDeleting();
+    };
+
+    typingEffect();
+</script>
