@@ -1,20 +1,3 @@
-/* Contact button appearance */
-.contact-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #424242;
-    color: #cccccc;
-    text-decoration: none;
-    border-radius: 30px;
-}
-
-.contact-button:hover {
-    background: -moz-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
-    background: -webkit-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
-    background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
-    color: #fff;
-}
-
 /* Styles for the "Back to Top" button */
 .back-to-top-button {
     text-decoration: none;
@@ -54,7 +37,7 @@ p {
 }
 
 p>a {
-    color: #fd084a;
+    color: #08fd1d;
 }
 
 .blink {
@@ -77,4 +60,67 @@ p>a {
     font-family: "Courier";
     font-size: 20px;
     padding: 0.1em;
+}
+
+/* Styles for the contact form container */
+#contact-container {
+    background-color: #2F2F2F;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Styles for the form elements */
+.form-group {
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 11px;
+    font-size: 15px;
+    background-color: #242424;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+textarea {
+    border-radius: 13px;
+    height: 100px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #cccccc;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 0.9rem;
+}
+
+button:hover {
+    background: -moz-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
+    background: -webkit-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
+    background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
+    color: #fff;
 }
