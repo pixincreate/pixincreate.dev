@@ -12,4 +12,11 @@
         <a href="/terms-of-service">Terms</a>
         <a href="/to-be-updated">Status</a>
     </small>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>{{ .Site.Params.footerLeft | default "Built on top of <a href=\"http://gohugo.io\">Hugo</a>" |
+                safeHTML
+                }}</span>
+        </div>
+    </div>
 </footer>

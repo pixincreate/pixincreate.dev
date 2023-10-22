@@ -21,7 +21,7 @@ series = "series"
 [languages.en]
 title = "Pavana Narayana K"
 keywords = "pixincreate, pavan"
-copyright = '<a href="/LICENSE" target="_blank" rel="license noopener noreferrer">License</a>'
+copyright = 'CC0 1.0 Universal'
 
 [languages.en.params]
 dateform = "Jan 2, 2006"

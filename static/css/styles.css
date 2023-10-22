@@ -14,6 +14,9 @@
     cursor: pointer;
     opacity: 100%;
     transition: opacity 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .back-to-top-button:hover {
@@ -123,4 +126,9 @@ button:hover {
     background: -webkit-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
     background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
     color: #fff;
+}
+
+.footer__content span {
+    font-size: 10px;
+    opacity: 0.5;
 }
