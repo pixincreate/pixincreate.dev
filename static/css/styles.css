@@ -127,3 +127,8 @@ button:hover {
     background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
     color: #fff;
 }
+
+.footer__content span {
+    font-size: 10px;
+    opacity: 0.5;
+}
