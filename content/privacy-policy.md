@@ -27,13 +27,9 @@ As a resident of California, you have certain rights under the CCPA. If you are 
 
 For users in the European Union, you have rights under the GDPR regarding the processing of your personal data. These rights include the right to access, rectify, or erase your personal information.
 
-### SimpleAnalytics
-
-We use [SimpleAnalytics](https://simpleanalytics.com/privacy-policy) to monitor website traffic and analyze visitor behavior. SimpleAnalytics does not use cookies and respects user privacy by not tracking individual users or collect any kind of personal information.
-
 ### Cloudflare
 
-Cloudflare might collect certain necessary data such as your IP Address to serve you the contents. Visit [cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/) to know more about how they collect and manage your data.
+Cloudflare might collect certain necessary data such as your IP Address to serve you the contents and analytics to have an idea about the traffic to the website. Visit [cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/) to know more about how they collect and manage your data.
 
 ### Google Ads
 
