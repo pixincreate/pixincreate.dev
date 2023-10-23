@@ -1,8 +1,6 @@
 # pixincreate.dev
 
-[![Staging or PR preview](https://github.com/pixincreate/pixincreate-website/actions/workflows/pr-preview.yml/badge.svg)](https://github.com/pixincreate/pixincreate-website/actions/workflows/pr-preview.yml)
-
-[![Production](https://github.com/pixincreate/pixincreate-website/actions/workflows/CI.yml/badge.svg)](https://github.com/pixincreate/pixincreate-website/actions/workflows/CI.yml)
+[![Staging or PR preview](https://github.com/pixincreate/pixincreate.dev/actions/workflows/pr-preview.yml/badge.svg)](https://github.com/pixincreate/pixincreate.dev/actions/workflows/pr-preview.yml) [![Production](https://github.com/pixincreate/pixincreate.dev/actions/workflows/CI.yml/badge.svg)](https://github.com/pixincreate/pixincreate.dev/actions/workflows/CI.yml)
 
 Welcome to my portfolio website repository! This site is built using the Hugo static site generator and uses the [Hello-Friend-NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme to showcase my work, projects, and achievements. It's deployed through Cloudflare using GitHub CI/CD for a seamless and efficient workflow.
 
