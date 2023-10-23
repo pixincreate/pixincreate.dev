@@ -46,8 +46,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --environment "${HUGO_ENVIRONMENT}" \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --environment "${HUGO_ENVIRONMENT}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
