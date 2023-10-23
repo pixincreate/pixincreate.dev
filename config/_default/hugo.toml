@@ -20,7 +20,7 @@ series = "series"
 [languages]
 [languages.en]
 title = "Pavana Narayana K"
-keywords = "pixincreate, pavan"
+keywords = "pixincreate, pavan, pavana, pix"
 copyright = 'CC0 1.0 Universal'
 
 [languages.en.params]
@@ -32,10 +32,12 @@ dateformNumTime = "2006-01-02 15:04"
 homeSubtitle = "An 8-bit dev converting coffee to code!"
 subtitle = "pixincreate portfolio"
 enableSharingButtons = true
+canonifyURLs = true
 description = "pixincreate's website"
 keywords = "blog, homepage, portfolio, resume"
 images = [""]
 
+customCSS = ["css/custom.css"]
 
 [[languages.en.params.social]]
 name = "github"
@@ -45,8 +47,12 @@ url = "https://github.com/pixincreate"
 name = "linkedin"
 url = "https://linkedin.com/pavananarayanak"
 
-[languages.en.params.portrait]
-path = "/img/avatar.png"
+[[languages.en.params.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/12320089/theycallmepix"
+
+[params.portrait]
+path = "img/avatar.png"
 alt = "Avatar"
 maxWidth = "175px"
 
@@ -60,24 +66,24 @@ logoCursorDisabled = true
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "/about"
+url = "about/"
 weight = 1
 
 [[menu.main]]
 identifier = "youtube"
 name = "YouTube"
-url = "/youtube"
+url = "youtube/"
 
 [[menu.main]]
 identifier = "work"
 name = "Work"
-url = "/work"
+url = "work/"
 weight = 2
 
 [[menu.main]]
 identifier = "posts"
 name = "Posts"
-url = "/posts"
+url = "posts/"
 
 [privacy]
 [privacy.disqus]
