@@ -22,21 +22,11 @@
 {{ end }}
 
 <!-- CSS -->
-{{ range .Site.Params.custom_css -}}
-<link rel="stylesheet" href="{{ . | absURL }}">
-{{- end }}
+
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-
-{{ range $val := $.Site.Params.customCSS }}
-{{ if gt (len $val) 0 }}
-<link rel="stylesheet" type="text/css" href="{{ $val }}">
-{{ end }}
-{{ end }}
-
-<!-- Custom CSS handled here -->
-{{ range .Site.Params.customCSS -}}
+{{ range .Site.Params.custom_css -}}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{- end }}
 

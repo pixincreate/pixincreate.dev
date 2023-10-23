@@ -36,8 +36,10 @@ canonifyURLs = true
 description = "pixincreate's website"
 keywords = "blog, homepage, portfolio, resume"
 images = [""]
+justifyContent = true
+rss = true
 
-customCSS = ["css/custom.css"]
+custom_css = ["css/styles.css"]
 
 [[languages.en.params.social]]
 name = "github"
