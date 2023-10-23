@@ -46,8 +46,12 @@ url = "https://github.com/pixincreate"
 name = "linkedin"
 url = "https://linkedin.com/pavananarayanak"
 
-[languages.en.params.portrait]
-path = "/img/avatar.png"
+[[languages.en.params.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/12320089/theycallmepix"
+
+[params.portrait]
+path = "img/avatar.png"
 alt = "Avatar"
 maxWidth = "175px"
 
@@ -61,24 +65,24 @@ logoCursorDisabled = true
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "/about"
+url = "about/"
 weight = 1
 
 [[menu.main]]
 identifier = "youtube"
 name = "YouTube"
-url = "/youtube"
+url = "youtube/"
 
 [[menu.main]]
 identifier = "work"
 name = "Work"
-url = "/work"
+url = "work/"
 weight = 2
 
 [[menu.main]]
 identifier = "posts"
 name = "Posts"
-url = "/posts"
+url = "posts/"
 
 [privacy]
 [privacy.disqus]
