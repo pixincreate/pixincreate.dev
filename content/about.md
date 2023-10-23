@@ -30,3 +30,7 @@ A lot of my work is open-source on [GitHub](https://github.com).
 Did a lot of _SDE_ work in _RustLang_ and fixed a lot of bugs after joining as a **QE**, wrote an entire test suite to run automated tests to catch bugs within the product like a _DevOps_ Engineer
 
 {{< back-to-top >}}
+
+___
+
+All contents on this site is licensed under CC0 1.0 Universal unless stated otherwise.

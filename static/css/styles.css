@@ -17,6 +17,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-transition: all 0.5s;
+    /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s;
+    /* add this line, firefox */
+    -o-transition: all 0.5s;
+    /* add this line, opera */
+    transition: all 0.5s;
+    /* add this line */
 }
 
 .back-to-top-button:hover {
@@ -108,6 +116,7 @@ textarea {
     min-height: 100px;
 }
 
+/* Used in Submit and Get in touch button */
 button {
     display: inline-block;
     padding: 10px 20px;
@@ -119,6 +128,30 @@ button {
     font-size: 15px;
     cursor: pointer;
     margin-top: 0.9rem;
+    -webkit-transition: all 0.5s;
+    /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s;
+    /* add this line, firefox */
+    -o-transition: all 0.5s;
+    /* add this line, opera */
+    transition: all 0.5s;
+    /* add this line */
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.3s;
 }
 
 button:hover {
@@ -126,6 +159,16 @@ button:hover {
     background: -webkit-linear-gradient(-45deg, #02EAFF 0%, #D401D4 100%);
     background: linear-gradient(135deg, #02EAFF 0%, #D401D4 100%);
     color: #fff;
+    box-shadow: 1px 2px 3px 4px rgba(10, 10, 10, 0.2);
+}
+
+button:hover span {
+    padding-right: 15px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 .footer__content span {
