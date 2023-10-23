@@ -6,7 +6,7 @@ draft = false
 
 ## Introduction
 
-Hi I'm Pavana Narayana K, an 8-bit developer, interested in information security. I spend most of time lurking around data breaches, latest CVEs and stalking repos on GitHub. However, that's not the end. I do have experience automating stuffs here and there and love contributing to **open-source** (which is where I live) for a better world.
+Hi I'm Pavana Narayana K AKA `Pa1NarK`, an 8-bit developer, interested in information security. I spend most of time lurking around data breaches, latest CVEs and stalking repos on GitHub. However, that's not the end. I do have experience automating stuffs here and there and love contributing to **open-source** (which is where I live) for a better world.
 
 A lot of my work is open-source on [GitHub](https://github.com).
 
