@@ -1,4 +1,4 @@
-name: Build and Deploy Hugo Website
+name: Build and Deploy
 
 on:
   push:

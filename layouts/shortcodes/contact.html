@@ -12,7 +12,7 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Lorem ipsum dolor sit amet," required></textarea>
         </div>
-        <button>Submit</button>
+        <button onclick="alert('You\'ll now be redirected to your mail app.')"><span>Submit</span></button>
     </form>
 </div>
 <script>
@@ -24,9 +24,9 @@
         const message = document.getElementById("message").value;
 
         // Create a mailto link with subject and body
-        const subject = encodeURIComponent("Getting in touch through your website");
+        const subject = encodeURIComponent("Getting in touch with Pa1NarK");
         const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage:%0D%0A${message}`;
-        const mailtoLink = `mailto:get_in_touch.with.me.slightly636@slmail.me?subject=${subject}&body=${body}`;
+        const mailtoLink = `mailto:reachout@pixincreate.dev?subject=${subject}&body=${body}`;
 
         // Open the user's email client with the pre-filled email
         window.location.href = mailtoLink;
