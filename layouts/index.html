@@ -1,10 +1,5 @@
 {{ define "body" }}
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
-</head>
-
 <body class="{{ if .Site.Params.backgroundImage }} background-image"
     style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
     {{ end }}

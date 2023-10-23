@@ -36,6 +36,7 @@ description = "pixincreate's website"
 keywords = "blog, homepage, portfolio, resume"
 images = [""]
 
+customCSS = ["css/custom.css"]
 
 [[languages.en.params.social]]
 name = "github"
