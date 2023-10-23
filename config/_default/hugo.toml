@@ -1,4 +1,4 @@
-baseurl = "localhost"
+baseURL = "localhost"
 title = "pixincreate"
 languageCode = "en-us"
 theme = "hello-friend-ng"
