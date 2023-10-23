@@ -20,7 +20,7 @@ series = "series"
 [languages]
 [languages.en]
 title = "Pavana Narayana K"
-keywords = "pixincreate, pavan"
+keywords = "pixincreate, pavan, pavana, pix"
 copyright = 'CC0 1.0 Universal'
 
 [languages.en.params]
@@ -32,6 +32,7 @@ dateformNumTime = "2006-01-02 15:04"
 homeSubtitle = "An 8-bit dev converting coffee to code!"
 subtitle = "pixincreate portfolio"
 enableSharingButtons = true
+canonifyURLs = true
 description = "pixincreate's website"
 keywords = "blog, homepage, portfolio, resume"
 images = [""]
