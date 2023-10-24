@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 paginate = 10
 author = "Pa1NarK"
 disableMermaid = false
+enableRobotsTXT = true
 
 [minify]
 minifyOutput = true

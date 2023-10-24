@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /about/
+Disallow: /work/
+Sitemap: https://pixincreate.dev/sitemap.xml
