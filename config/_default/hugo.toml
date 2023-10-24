@@ -64,6 +64,11 @@ logoText = ["pixincreate.", "PiX.", "Pavan.", "Pa1NarK."]
 logoHomeLink = "/"
 logoCursorDisabled = true
 
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 1
+
 [menu]
 [[menu.main]]
 identifier = "about"

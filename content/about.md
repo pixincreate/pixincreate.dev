@@ -1,5 +1,8 @@
 +++
 title = 'About'
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 date = 2023-10-19T22:48:55+05:30
 draft = false
 +++
