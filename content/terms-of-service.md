@@ -1,5 +1,8 @@
 +++
 title = 'Terms of Service'
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 date = 2023-10-22T16:15:42+05:30
 draft = false
 +++
