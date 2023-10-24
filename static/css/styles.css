@@ -1,20 +1,18 @@
 /* Styles for the "Back to Top" button */
 .back-to-top-button {
-    display: flex;
-    text-decoration: none;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: safe center;
-    height: 4%;
-    width: 4%;
-    position: fixed;
-    color: #030303;
-    right: 2rem;
-    bottom: 2rem;
-    background-color: #CCC;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    padding: 0 1em;
     border: none;
+    right: 3rem;
+    bottom: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    color: #030303;
+    background-color: #CCC;
     cursor: pointer;
-    opacity: 100%;
+    font-weight: bold;
     transition: opacity 0.5s;
 }
 

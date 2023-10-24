@@ -4,7 +4,7 @@ date = 2023-10-19T23:36:28+05:30
 draft = false
 +++
 
-A lot of my work are [open-source](https://github.com/pixincreate?tab=repositories) and some of them are attached below:
+A lot of my i.e., Pa1NarK's work are [open-source](https://github.com/pixincreate?tab=repositories) and some of them are attached below:
 
 - Meet the [_**Automeet**_](https://github.com/pixincreate/Automeet),
 a CLI tool that will attend your online classes on behalf of you. our job is schedule classes on Google Calendar and login to your account once in the morning, it will take care of the rest!
