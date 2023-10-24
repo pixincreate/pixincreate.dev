@@ -39,6 +39,10 @@
     // Initialize the text content with an empty string
     document.getElementById('word').textContent = '';
 
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
     function typingEffect() {
         let word = words[i].split("");
         var loopTyping = function () {
@@ -48,12 +52,13 @@
                 deletingEffect();
                 return false;
             };
-            timer = setTimeout(loopTyping, 500);
+            timer = setTimeout(loopTyping, 400);
         };
         loopTyping();
     };
 
-    function deletingEffect() {
+    async function deletingEffect() {
+        await sleep(2 * Math.floor(Math.random() * (1001 - 1 + 1)) + 1);
         let word = words[i].split("");
         var loopDeleting = function () {
             if (word.length > 0) {

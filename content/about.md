@@ -29,4 +29,5 @@ A lot of my work is open-source on [GitHub](https://github.com).
 - At _Juspay_(_Hyperswitch_, to be specific), as a **Technical Product Analyst Intern**, integrated a _NMI_ connector with _ApplePay_ and _GooglePay_ support, documented details about various connectors, developed features for _Checkout_ and _ACI_ connectors
 Did a lot of _SDE_ work in _RustLang_ and fixed a lot of bugs after joining as a **QE**, wrote an entire test suite to run automated tests to catch bugs within the product like a _DevOps_ Engineer
 
+If you want to learn more about my work, please visit [this page](/work/).
 {{< back-to-top >}}
