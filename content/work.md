@@ -22,6 +22,20 @@ a CLI tool that will attend your online classes on behalf of you. our job is sch
 
 and [many more...](https://github.com/pixincreate?tab=repositories)
 
+## Experience
+
+- _Juspay_(_Hyperswitch_, to be specific)
+  > As a **Technical Product Analyst Intern**, integrated a _NMI_ connector with _ApplePay_ and _GooglePay_ support, documented details about various connectors, developed features for _Checkout_ and _ACI_ connectors.
+  Did a lot of _SDE_ work in _RustLang_ and fixed a lot of bugs after joining as a **QE**, wrote an entire test suite to run automated tests to catch bugs within the product like a _DevOps_ Engineer
+- _Camp Yellow Global_
+  > (Shut down in the month of November 2022) worked as a Software Engineer Intern and helped them communicate with 1000+ schools across the globe for in-person as well as virtual events and competitions
+- _ICSolutions_
+  > Worked as full-stack developer intern  and designed a website that is similar to `wowitshappening(dot)com` which never made it to being hosted unfortunately
+- _Aquem Private Ltd._
+  > Worked as a backend developer intern and developed a frame work that enabled the team to easily integrate `DJango` with `MongoDB` (`MongoDB Atlas`, to be specific) through `PyMongo` that helps ease work with `React`
+  >
+___
+
 You can contact me from the below button
 
 {{< contact-button-work >}}
