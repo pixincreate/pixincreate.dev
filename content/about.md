@@ -22,15 +22,6 @@ A lot of my work is open-source on [GitHub](https://github.com).
 - Privacy, security and human rights
 - RISC-V
 - Rust and Python based projects
-- WEb development
+- Web development
 
-## Experience
-
-- Worked as a backend developer intern for _Aquem Private Ltd._ and developed a frame work that enabled the team to easily integrate `DJango` with `MongoDB` (`MongoDB Atlas`, to be specific) through `PyMongo` that helps ease work with `React`
-- Worked for _Camp Yellow Global_ (which is shut down in the month of November 2022) as a Software Engineer Intern and helped them communicate with 1000+ schools across the globe for in-person as well as virtual events and competitions
-- Worked as full-stack developer intern for _ICSolutions_ and designed a website that is similar to `wowitshappening(dot)com` which never made it to being hosted unfortunately
-- At _Juspay_(_Hyperswitch_, to be specific), as a **Technical Product Analyst Intern**, integrated a _NMI_ connector with _ApplePay_ and _GooglePay_ support, documented details about various connectors, developed features for _Checkout_ and _ACI_ connectors
-Did a lot of _SDE_ work in _RustLang_ and fixed a lot of bugs after joining as a **QE**, wrote an entire test suite to run automated tests to catch bugs within the product like a _DevOps_ Engineer
-
-If you want to learn more about my work, please visit [this page](/work/).
 {{< back-to-top >}}
