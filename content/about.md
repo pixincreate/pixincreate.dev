@@ -24,4 +24,6 @@ A lot of my work is open-source on [GitHub](https://github.com).
 - Rust and Python based projects
 - Web development
 
+You can learn more about my experience and work [_here_](/work/).
+
 {{< back-to-top >}}

@@ -1,5 +1,4 @@
 baseURL = "localhost"
-title = "pixincreate"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
@@ -20,7 +19,7 @@ series = "series"
 
 [languages]
 [languages.en]
-title = "Pavana Narayana K"
+title = "Pa1NarK"
 keywords = "pixincreate, pavan, pavana, pix, portfolio, blog, resume, homepage"
 copyright = 'CC0 1.0 Universal'
 
@@ -80,7 +79,7 @@ weight = 1
 [[menu.main]]
 identifier = "youtube"
 name = "YouTube"
-url = "youtube/"
+url = "homepage/youtube/"
 
 [[menu.main]]
 identifier = "work"

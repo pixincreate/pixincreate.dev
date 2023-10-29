@@ -10,7 +10,7 @@ draft = false
 **Last Updated:** 22/10/2023
 
 Thank you for visiting our website. At pixincreate.dev, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines our practices concerning data privacy, how we collect and handle information, and your rights regarding your personal data. Please read this Privacy Policy carefully and feel free to contact us with any questions or concerns at <privacy@pixincreate.dev>.
-To learn about the terms of service, please visit [here](terms-of-service.md)
+To learn about the terms of service, please visit [here](/terms-of-service)
 
 ## Data Collection and Usage
 
