@@ -74,4 +74,9 @@
 {{- if $.Site.Params.plausibleDataDomain }}
 <script defer data-domain="{{ .Site.Params.plausibleDataDomain }}"
     src="{{ .Site.Params.plausibleScriptSource }}"></script>
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "{{ .Site.Params.cfWebAnalyticsToken}}"}'></script>
+<!-- End Cloudflare Web Analytics -->
 {{- end}}

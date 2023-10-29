@@ -28,7 +28,7 @@ We may revise these Terms of Service at any time without prior notice. Any chang
 
 ## Privacy Policy
 
-Your use of our services or applications is also subject to our [Privacy Policy](privacy-policy.md). Please refer to our [Privacy Policy](privacy-policy.md) for detailed information regarding data collection, usage, and privacy practices.
+Your use of our services or applications is also subject to our [Privacy Policy](/privacy-policy). Please refer to our [Privacy Policy](/privacy-policy) for detailed information regarding data collection, usage, and privacy practices.
 
 ## Contact Information
 

@@ -6,7 +6,6 @@
         {{ else }}
         <span class="logo__mark">{{ with .Site.Params.Logo.logoMark }}{{ . }}{{ else }}>{{ end }}</span>
 
-
         <div class="flex">
             <span class="logo__text {{ with.Site.Params.Logo.logoCursorPathname}}logo__pathname{{ end }}" id="word">
                 {{ range .Site.Params.Logo.logoText }}
@@ -52,7 +51,7 @@
                 deletingEffect();
                 return false;
             };
-            timer = setTimeout(loopTyping, 400);
+            timer = setTimeout(loopTyping, 350);
         };
         loopTyping();
     };

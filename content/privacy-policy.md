@@ -10,7 +10,7 @@ draft = false
 **Last Updated:** 22/10/2023
 
 Thank you for visiting our website. At pixincreate.dev, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines our practices concerning data privacy, how we collect and handle information, and your rights regarding your personal data. Please read this Privacy Policy carefully and feel free to contact us with any questions or concerns at <privacy@pixincreate.dev>.
-To learn about the terms of service, please visit [here](terms-of-service.md)
+To learn about the terms of service, please visit [here](/terms-of-service)
 
 ## Data Collection and Usage
 
@@ -33,6 +33,10 @@ For users in the European Union, you have rights under the GDPR regarding the pr
 ### Cloudflare
 
 Cloudflare might collect certain necessary data such as your IP Address to serve you the contents and analytics to have an idea about the traffic to the website. Visit [cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/) to know more about how they collect and manage your data.
+
+#### Cloudflare Analytics
+
+The website makes use of [Cloudflare Web-Analytics](https://developers.cloudflare.com/analytics/web-analytics/) that helps us analyse the performance of the website as experienced by the site visitors. Cloudflare Web-Analytics respects user privacy by not collecting visitor's personal data.
 
 ### Google Ads
 
