@@ -1,1 +1,3 @@
 baseURL = "https://pixincreate.dev/"
+[params]
+cfWebAnalyticsToken = "$CF_WEB_ANALYTICS_TOKEN"

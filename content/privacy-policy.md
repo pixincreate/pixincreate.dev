@@ -34,6 +34,10 @@ For users in the European Union, you have rights under the GDPR regarding the pr
 
 Cloudflare might collect certain necessary data such as your IP Address to serve you the contents and analytics to have an idea about the traffic to the website. Visit [cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/) to know more about how they collect and manage your data.
 
+#### Cloudflare Analytics
+
+The website makes use of [Cloudflare Web-Analytics](https://developers.cloudflare.com/analytics/web-analytics/) that helps us analyse the performance of the website as experienced by the site visitors. Cloudflare Web-Analytics respects user privacy by not collecting visitor's personal data.
+
 ### Google Ads
 
 Please be aware that when you click on **posts** page, you'll be redirected to a separate webpage that contains advertisements from Google. These ads may use cookies and other tracking technologies to collect data as described in [Google's privacy policy](https://policies.google.com/privacy?hl=en-US). We are not responsible for the data collected by Google through their advertising services.
